@@ -40,10 +40,10 @@ class Payment extends Component {//eslint-disable-line
               </Row>
               <br/><br/>
               <Row className="container-fluid">
-                表单提交后的响应结果：
+                Result:
                 <pre>{serialize(forms, { space: 2 })}</pre>
                 <br/><br/>
-                表单提交后的响应状态：
+                Status:
                 <pre>{serialize(formsState, { space: 2 })}</pre>
               </Row>
             </Col>

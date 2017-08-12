@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <div className="container">
       <h1>404!</h1>
-      <p>您要找的页面不存在！</p>
+      <p>This item does not exist</p>
     </div>
   );
 }
